@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) {
+    .blur-background{
+        background-image: url('./jap.jpg');
+        width:98vw;
+        height:90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .year{
+       display: flex;
+        color: white;
+    }
+    .year>ul{
+        display: flex;
+        margin-top: 50px;
+    }
+    .year>ul>li{
+        list-style: none;
+        font-size: 25px;
+    }
+    
+    .year > ul > li:nth-child(1) {
+        /* Styles for the first li element */
+        color: red;
+        margin-right: 20px; 
+        margin-top: 75px;
+        margin-left: 60px;
+    }
+    .year > ul > li:nth-child(2) {
+        /* Styles for the first li element */
+        color: red;
+        margin-right: 3px; 
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .year > ul > li:nth-child(3) {
+        /* Styles for the first li element */
+        color: rgb(145, 255, 0);
+        margin-right: 3px; 
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    .year > ul > li:nth-child(4) {
+        /* Styles for the first li element */
+        color: rgb(0, 132, 255);
+        margin-right: 3px; 
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .year > ul > li:nth-child(5) {
+        /* Styles for the first li element */
+        color: rgb(165, 7, 89); 
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    .emoji{
+        font-size: 1.1em; 
+    }
+    .emoji{
+        margin-left: 100px;
+    }
+    .emoji >p:nth-child(5) {
+        /* Styles for the first li element */
+        color: rgb(7, 31, 165); 
+        
+    }
+    .emoji p {
+        transition: all 2s ;
+    
+      }
+  
+      .emoji p:hover {
+        transform: rotate(360deg) scale(1.3); /* Adjust rotation and scale values as needed */
+        font-size: 1.2em; /* Adjust the size as needed */
+        box-shadow: 20 20 5px rgba(9, 0, 108, 0.3); 
+        color: rgb(238, 8, 8);
+      }
+  
+  }
