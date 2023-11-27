@@ -31,7 +31,7 @@
         color: red;
         margin-right: 20px; 
         margin-top: 75px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .year > ul > li:nth-child(2) {
         /* Styles for the first li element */
@@ -64,7 +64,7 @@
         font-size: 1.1em; 
     }
     .emoji{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .emoji >p:nth-child(5) {
         /* Styles for the first li element */
